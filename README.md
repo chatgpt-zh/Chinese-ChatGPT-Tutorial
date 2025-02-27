@@ -22,12 +22,12 @@
 以下是精选的国内 ChatGPT 中文版镜像网站，助力用户快速上手：
 
 1. **一下AI**  
-   - **支持功能**：GPT-4.0、GPT o1、GPT o3 mini、AI绘画  
+   - **支持功能**：GPT-4.0、GPT o1、GPT o3 mini、Claude、GrokAI绘画  
    - **类型**：网站  
    - **访问地址**：[www.yixiaai.com](http://www.yixiaai.com)
 
 2. **Lify Chat**  
-   - **支持功能**：GPT-4.0、GPT4.0 Turbo、GPT o1、AI PPT、插件、AI知识库
+   - **支持功能**：GPT-4.0、GPT4.0 Turbo、GPT o1、AI PPT、Claude、Grok、插件、AI知识库
    - **类型**：网站  
    - **访问地址**：[chat.lify.vip](http://chat.lify.vip)
 
@@ -37,7 +37,7 @@
    - **下载地址**：[chatknow.lify.vip/software/AI智识岛_1.0.0_x64_zh-CN.msi](http://chatknow.lify.vip/software/AI%E6%99%BA%E6%85%A7%E5%B2%9B_1.0.0_x64_zh-CN.msi)
 
 4. **ChatGPT for edge**  
-   - **支持功能**：Edge 浏览器插件，支持全系列模型  
+   - **支持功能**：Edge 浏览器插件，支持GPT、Claude、Grok全系列模型  
    - **类型**：插件  
    - **访问地址**：[microsoftedge.microsoft.com/addons/detail/chatgpt中文版](https://microsoftedge.microsoft.com/addons/detail/chatgpt%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%88%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2%E3%80%81%E5%AF%B9%E8%AF%9D%E3%80%81%E5%86%99%E4%BD%9C%E3%80%81%E7%BB%98%E7%94%BB/lmlenkgcieicbnpobkhmpcgmamahahil)
 
