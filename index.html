@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT中文版使用教程 - 最新GPT-4.0无限制使用方法</title>
+    <meta name="description" content="最新ChatGPT中文版详细使用教程，提供GPT-4、GPT-4.0、GPT-o1等模型的无限制使用方法，包含可靠镜像网站推荐和注册指南。">
+    <meta name="keywords" content="ChatGPT, ChatGPT中文版, GPT-4, AI聊天, OpenAI, ChatGPT教程, ChatGPT镜像, Claude, Grok">
+    
+    <style>
+        :root {
+            --gradient: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        .gradient-header {
+            background: var(--gradient);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #2d3748;
+        }
+
+        .site-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .site-item {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 2rem;
+            overflow: hidden;
+        }
+
+        .site-item.theme-blue {
+            border-left: 5px solid #3b82f6;
+        }
+        .site-item.theme-blue:hover {
+            background: linear-gradient(to right, rgba(59, 130, 246, 0.05), white);
+        }
+
+        .site-item.theme-purple {
+            border-left: 5px solid #8b5cf6;
+        }
+        .site-item.theme-purple:hover {
+            background: linear-gradient(to right, rgba(139, 92, 246, 0.05), white);
+        }
+
+        .site-item.theme-green {
+            border-left: 5px solid #10b981;
+        }
+        .site-item.theme-green:hover {
+            background: linear-gradient(to right, rgba(16, 185, 129, 0.05), white);
+        }
+
+        .site-item.theme-orange {
+            border-left: 5px solid #f59e0b;
+        }
+        .site-item.theme-orange:hover {
+            background: linear-gradient(to right, rgba(245, 158, 11, 0.05), white);
+        }
+
+        .site-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        .site-content {
+            flex: 1;
+        }
+
+        .site-item h3 {
+            color: #1a202c;
+            margin: 0 0 1rem 0;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .site-meta {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .site-type {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #64748b;
+        }
+
+        .site-link {
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .theme-blue .site-link {
+            background: #3b82f6;
+        }
+        .theme-purple .site-link {
+            background: #8b5cf6;
+        }
+        .theme-green .site-link {
+            background: #10b981;
+        }
+        .theme-orange .site-link {
+            background: #f59e0b;
+        }
+
+        .site-link:hover {
+            transform: translateY(-2px);
+            filter: brightness(110%);
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .tag {
+            padding: 0.35rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .theme-blue .tag {
+            background: rgba(59, 130, 246, 0.1);
+            color: #3b82f6;
+        }
+        .theme-purple .tag {
+            background: rgba(139, 92, 246, 0.1);
+            color: #8b5cf6;
+        }
+        .theme-green .tag {
+            background: rgba(16, 185, 129, 0.1);
+            color: #10b981;
+        }
+        .theme-orange .tag {
+            background: rgba(245, 158, 11, 0.1);
+            color: #f59e0b;
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .feature-item {
+            background: #f7f7f7;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .update-time {
+            color: #666;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .site-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gradient-header">
+        <h1>ChatGPT 国内使用保姆教程</h1>
+        <p>支持 GPT-4、GPT-4o、GPT-o1 等全系列模型</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <p class="update-time">更新时间：2025/02/27</p>
+            
+            <h2>什么是中文版 ChatGPT？</h2>
+            <p><strong>中文版 ChatGPT</strong> 是 OpenAI 针对中文用户需求精心优化的智能对话工具，旨在提供更加流畅和精准的中文服务。与原版相比，中文版 ChatGPT 在多个方面更贴合国内用户的使用习惯：</p>
+            <ul>
+                <li><strong>中文优化支持</strong>：对话更加自然，适用于写作、办公、学习等多种场景。</li>
+                <li><strong>便捷访问</strong>：通过国内镜像网站，无需翻墙即可轻松使用。</li>
+                <li><strong>功能丰富</strong>：基于 GPT-4 模型，具备翻译、问答、内容创作等多种强大功能。</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>国内可用的中文版 ChatGPT 镜像网站推荐</h2>
+            <div class="site-list">
+                <div class="site-item theme-blue">
+                    <div class="site-content">
+                        <h3>一下AI</h3>
+                        <div class="tag-list">
+                            <span class="tag">GPT-4.0</span>
+                            <span class="tag">GPT-4o</span>
+                            <span class="tag">GPT-o1</span>
+                            <span class="tag">GPT-o3</span>
+                            <span class="tag">Midjourney</span>
+                            <span class="tag">AI PPT</span>
+                            <span class="tag">Claude Sonnet</span>
+                            <span class="tag">Grok</span>
+                            <span class="tag">AI绘画</span>
+                        </div>
+                        <div class="site-meta">
+                            <div class="site-type">
+                                <span>类型：网站</span>
+                            </div>
+                            <a href="http://chat.yixiaai.com" class="site-link" target="_blank">立即访问</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-item theme-purple">
+                    <div class="site-content">
+                        <h3>Lify Chat</h3>
+                        <div class="tag-list">
+                            <span class="tag">GPT-4.0</span>
+                            <span class="tag">GPT-4o</span>
+                            <span class="tag">GPT-o1</span>
+                            <span class="tag">GPT-o3</span>
+                            <span class="tag">Claude Sonnet</span>
+                            <span class="tag">Grok</span>
+                            <span class="tag">AI PPT</span>
+                        </div>
+                        <div class="site-meta">
+                            <div class="site-type">
+                                <span>类型：网站</span>
+                            </div>
+                            <a href="http://chat.lify.vip" class="site-link" target="_blank">立即访问</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-item theme-green">
+                    <div class="site-content">
+                        <h3>ChatGPT 桌面版</h3>
+                        <div class="tag-list">
+                            <span class="tag">全系列GPT</span>
+                            <span class="tag">Claude Sonnet</span>
+                            <span class="tag">Grok</span>
+                            <span class="tag">客户端</span>
+                        </div>
+                        <div class="site-meta">
+                            <div class="site-type">
+                                <span>类型：电脑客户端</span>
+                            </div>
+                            <a href="http://chatknow.lify.vip/software/AI智识岛_1.0.0_x64_zh-CN.msi" class="site-link" target="_blank">立即下载</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-item theme-orange">
+                    <div class="site-content">
+                        <h3>ChatGPT for edge</h3>
+                        <div class="tag-list">
+                            <span class="tag">Edge插件</span>
+                            <span class="tag">GPT-4o</span>
+                            <span class="tag">GPT-o1</span>
+                            <span class="tag">GPT-o3</span>
+                            <span class="tag">Claude Sonnet</span>
+                            <span class="tag">Grok</span>
+                            <span class="tag">全系列模型</span>
+                        </div>
+                        <div class="site-meta">
+                            <div class="site-type">
+                                <span>类型：插件</span>
+                            </div>
+                            <a href="https://microsoftedge.microsoft.com/addons/detail/chatgpt中文版" class="site-link" target="_blank">获取插件</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>为什么选择中文版 ChatGPT？</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>使用便捷</h3>
+                    <p>无需翻墙即可全面体验 GPT-4 的强大功能。</p>
+                </div>
+                <div class="feature-item">
+                    <h3>中文优化</h3>
+                    <p>更精准理解中文语境，消除语言障碍。</p>
+                </div>
+                <div class="feature-item">
+                    <h3>多场景适用</h3>
+                    <p>适用于学习、工作、内容创作等多种用途。</p>
+                </div>
+                <div class="feature-item">
+                    <h3>高性价比</h3>
+                    <p>部分镜像站点提供免费额度或经济实惠的套餐。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>ChatGPT 官网与中文版的区别</h2>
+            <div class="site-list">
+                <div class="site-item">
+                    <h3>ChatGPT 官网</h3>
+                    <ul>
+                        <li>需翻墙访问，速度可能较慢</li>
+                        <li>多语言支持（中文表现一般）</li>
+                        <li>功能支持：GPT-4、GPT-3.5、GPT o1</li>
+                        <li>需使用海外手机号注册</li>
+                        <li>免费额度有限，需付费升级</li>
+                    </ul>
+                </div>
+                <div class="site-item">
+                    <h3>ChatGPT 中文版（镜像站）</h3>
+                    <ul>
+                        <li>无需翻墙，国内访问迅速</li>
+                        <li>专注中文，响应更快更准</li>
+                        <li>支持更多模型：GPT-4、Claude、Grok等</li>
+                        <li>支持国内邮箱或手机号注册</li>
+                        <li>部分镜像站点免费提供，收费相对低廉</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 其余部分内容保持不变 -->
+        
+    </div>
+
+    <script>
+        function updateGradient() {
+            const colors = [
+                '#6366f1,#a855f7,#ec4899',
+                '#3b82f6,#14b8a6,#22c55e',
+                '#f97316,#db2777,#7c3aed',
+                '#06b6d4,#0ea5e9,#6366f1'
+            ];
+            const randomColors = colors[Math.floor(Math.random() * colors.length)];
+            document.documentElement.style.setProperty(
+                '--gradient',
+                `linear-gradient(135deg, ${randomColors})`
+            );
+        }
+        
+        updateGradient();
+        setInterval(updateGradient, 10000);
+    </script>
+</body>
+</html> 
