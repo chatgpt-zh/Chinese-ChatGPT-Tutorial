@@ -1,6 +1,6 @@
 # ChatGPT 国内使用保姆教程以及无限制使用 ChatGPT 4.0 的方法（支持 GPT-4、GPT-4o、GPT-o1）
 
->更新时间: 2025-03-07
+>更新时间: 2025-05-27
 >
 本文详细描述了中文版 ChatGPT 的使用方法，通过推荐可靠的镜像网站、提供官方网站注册指南及常见问题解答，帮助您快速掌握 ChatGPT 的使用技巧。
 
@@ -25,22 +25,13 @@
 1. **一下AI**  
    - **支持功能**：GPT-4.0、GPT o1、GPT o3 mini、Claude、GrokAI绘画  
    - **类型**：网站  
-   - **访问地址**：[www.yixiaai.com](http://www.yixiaai.com)
+   - **访问地址**：[xsimplechat.com](https://xsimplechat.com)
 
 2. **Lify Chat**  
    - **支持功能**：GPT-4.0、GPT4.0 Turbo、GPT o1、AI PPT、Claude、Grok、插件、AI知识库
    - **类型**：网站  
-   - **访问地址**：[chat.lify.vip](http://chat.lify.vip)
+   - **访问地址**：[蓝鲸AI](https://chat.lanjing.pro)
 
-3. **ChatGPT 桌面版**  
-   - **支持功能**：全系列 GPT 模型  
-   - **类型**：电脑客户端  
-   - **下载地址**：[chatknow.lify.vip/software/AI智识岛_1.0.0_x64_zh-CN.msi](http://chatknow.lify.vip/software/AI%E6%99%BA%E6%85%A7%E5%B2%9B_1.0.0_x64_zh-CN.msi)
-
-4. **ChatGPT for edge**  
-   - **支持功能**：Edge 浏览器插件，支持GPT、Claude、Grok全系列模型  
-   - **类型**：插件  
-   - **访问地址**：[microsoftedge.microsoft.com/addons/detail/chatgpt中文版](https://microsoftedge.microsoft.com/addons/detail/chatgpt%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%88%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2%E3%80%81%E5%AF%B9%E8%AF%9D%E3%80%81%E5%86%99%E4%BD%9C%E3%80%81%E7%BB%98%E7%94%BB/lmlenkgcieicbnpobkhmpcgmamahahil)
 
 ---
 
@@ -73,7 +64,7 @@
 
 ## 如何快速开始使用中文版 ChatGPT
 
-1. **选择镜像站点**：访问推荐的镜像站点，如 [chat.lify.vip](http://chat.lify.vip)。
+1. **选择镜像站点**：访问推荐的镜像站点，如 [xsimplechat.com](http://xsimplechat.com)。
 2. **注册账号**：使用邮箱或手机号完成注册。
 3. **选择模型**：根据需求选择 GPT-4、GPT-3.5 或 GPT-o1。
 4. **开始使用**：输入问题，立即获取精准回答！
