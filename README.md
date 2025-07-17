@@ -1,6 +1,6 @@
 # ChatGPT 国内使用保姆教程以及无限制使用 ChatGPT 4.0 的方法（支持 GPT-4、GPT-4o、GPT-o1）
 
->更新时间: 2025-05-27
+>更新时间: 2025-07-18
 >
 本文详细描述了中文版 ChatGPT 的使用方法，通过推荐可靠的镜像网站、提供官方网站注册指南及常见问题解答，帮助您快速掌握 ChatGPT 的使用技巧。
 
@@ -30,7 +30,7 @@
 2. **Lify Chat**  
    - **支持功能**：GPT-4.0、GPT4.0 Turbo、GPT o1、AI PPT、Claude、Grok、插件、AI知识库
    - **类型**：网站  
-   - **访问地址**：[蓝鲸AI](https://chat.lanjing.pro)
+   - **访问地址**：[蓝鲸AI](https://chat.lanjingai.org)
 
 
 ---
